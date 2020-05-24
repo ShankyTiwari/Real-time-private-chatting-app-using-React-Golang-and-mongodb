@@ -1,0 +1,57 @@
+.app__loader {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.9);
+    z-index: 1;
+    flex-direction: column;
+    justify-content: center;
+    display: none;
+}
+
+.app__loader img {
+    width: 60px;
+    height: 60px;
+    margin: auto;
+}
+
+.app__loader.active {
+    display: flex;
+}
+
+.app__authentication-container {
+    width: 450px;
+    margin: 0 auto;
+}
+
+.authentication__tab-switcher {
+    width: 100%;
+    text-align: center;
+}
+
+.authentication__tab-viewer {
+    width: 100%;
+}
+
+button.authentication__tab-button {
+    width: 30%;
+    background: #fff;
+    border: 0px;
+    padding: 7px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    outline: none;
+    position: relative;
+}
+
+button.active.authentication__tab-button::after {
+    content: '';
+    background: url(/border.png);
+    height: 11px;
+    width: 50px;
+    position: absolute;
+    bottom: 0;
+    left: 30%;
+    background-size: inherit;
+}

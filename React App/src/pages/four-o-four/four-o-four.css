@@ -1,0 +1,28 @@
+.app__FourOFour-container{
+    text-align: center;
+}
+
+.app__FourOFour-box {
+    background-image: url(/404-page.png);
+    width: 80%;
+    height: 300px;
+    background-position: center;
+    background-size: contain;
+    margin: auto;
+    text-align: center;
+    margin-top: 10%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.app__FourOFour-message {
+    font-size: 50px;
+}
+
+.app__FourOFour-link {
+    text-decoration: none;
+    color: #000;
+    font-size: 30px;;
+}

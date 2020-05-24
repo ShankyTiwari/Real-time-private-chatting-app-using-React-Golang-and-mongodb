@@ -1,0 +1,39 @@
+.app__register-container {
+    width: 100%;
+}
+
+.app__form-row {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.app__form-row label{
+    display: block;
+}
+
+.app__form-row input{
+    width: 100%;
+    font-size: 18px;
+    padding: 4px 2px;
+    outline: none;
+    border: 2px solid transparent;
+    -webkit-border-image: url('/border.png') 10 / 10px 5px 5px 5px / 10px 5px 5px 10px round;
+    /* Safari 3.1-5 */
+    -o-border-image: url('/border.png') 10 / 10px 5px 5px 5px / 10px 5px 5px 10px round;
+    /* Opera 11-12.1 */
+    border-image: url('/border.png') 10 / 10px 5px 5px 5px / 10px 5px 5px 10px round;
+}
+
+.app__form-row button {
+    background-color: rgba(127, 255, 212, 0.33);
+    padding: 5px 10px;
+    font-size: 19px;
+    outline: none;
+    cursor: pointer;
+    border: 2px solid transparent;
+    -webkit-border-image: url('/border-thick.png') 10 / 10px 10px 10px 10px / 5px 5px 5px 5px round;
+    /* Safari 3.1-5 */
+    -o-border-image: url('/border-thick.png') 10 / 10px 10px 10px 10px / 5px 5px 5px 5px round;
+    /* Opera 11-12.1 */
+    border-image: url('/border-thick.png') 10 / 10px 10px 10px 10px / 5px 5px 5px 5px round;
+}

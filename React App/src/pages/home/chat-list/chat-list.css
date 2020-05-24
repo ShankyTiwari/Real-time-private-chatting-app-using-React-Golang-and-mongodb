@@ -1,0 +1,50 @@
+.app__chatlist-container {
+    width: 250px;
+    margin: auto;
+}
+
+.user__chat-list {
+    width: 100%;
+}
+
+.user-name {
+    width: 100%;
+    font-size: 18px;
+    padding: 10px 5px;
+    outline: none;
+    margin-bottom: 20px;
+    cursor: pointer;
+    background-color: rgba(127, 255, 212, 0.33);
+    border: 2px solid transparent;
+    -webkit-border-image: url('/border-thick.png') 10 / 10px 10px 10px 10px / 5px 5px 5px 5px round;
+    /* Safari 3.1-5 */
+    -o-border-image: url('/border-thick.png') 10 / 10px 10px 10px 10px / 5px 5px 5px 5px round;
+    /* Opera 11-12.1 */
+    border-image: url('/border-thick.png') 10 / 10px 10px 10px 10px / 5px 5px 5px 5px round;
+}
+
+.selected-username {
+    background: url('/user-bg.png') -12px 55px;
+}
+
+.online {
+    height: 15px;
+    width: 15px;
+    border-radius: 10px;
+    background-color: rgb(0, 255, 42);
+    float: right;
+    margin-top: 0.5vh;
+    margin-right: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.567)
+}
+
+.offline {
+    height: 15px;
+    width: 15px;
+    border-radius: 10px;
+    background-color: rgb(255, 0, 0);
+    float: right;
+    margin-top: 0.5vh;
+    margin-right: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.567)
+}

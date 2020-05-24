@@ -1,0 +1,99 @@
+.app__conversion-container {
+    width: 100%;;
+}
+
+
+.message-overlay {
+    height: 400px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 2px solid transparent;
+    -webkit-border-image: url('/border-thick.png') 10 / 10px 10px 10px 10px / 5px 5px 5px 5px round;
+    /* Safari 3.1-5 */
+    -o-border-image: url('/border-thick.png') 10 / 10px 10px 10px 10px / 5px 5px 5px 5px round;
+    /* Opera 11-12.1 */
+    border-image: url('/border-thick.png') 10 / 10px 10px 10px 10px / 5px 5px 5px 5px round;
+}
+
+
+.start-chatting-banner {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.sub-heading {
+    font-size: 20px;
+    color: rgba(0, 123, 255);
+}
+
+
+.message-thread-container {
+    height: 400px;
+    overflow-y: scroll;
+    list-style-type: none;
+    width: 100%;
+    border: solid 1px #BDBDBD;
+    margin: 0px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+    border: 2px solid transparent;
+    -webkit-border-image: url('/border-thick.png') 10 / 10px 10px 10px 10px / 5px 5px 5px 5px round;
+    /* Safari 3.1-5 */
+    -o-border-image: url('/border-thick.png') 10 / 10px 10px 10px 10px / 5px 5px 5px 5px round;
+    /* Opera 11-12.1 */
+    border-image: url('/border-thick.png') 10 / 10px 10px 10px 10px / 5px 5px 5px 5px round;
+}
+
+.message-thread-container .message {
+    clear: both;
+    text-decoration: none;
+    list-style-type: none;
+    margin: 20px 10px 0px 20px;
+    float: left;
+    margin-right: 20px;
+    padding: 25px 34px;
+    min-width: 160px;
+    min-height: 10px;
+    max-width: 350px;
+    line-height: 1.4;
+    word-wrap: break-word;
+    color: #444444;
+    text-align: left;
+    background-color: rgba(127, 255, 212, 0.33);
+    border: 2px solid transparent;
+    -webkit-border-image: url('/border.png') 10 / 10px 10px 10px 10px / 5px 5px 5px 5px round;
+    /* Safari 3.1-5 */
+    -o-border-image: url('/border.png') 10 / 10px 10px 10px 10px / 5px 5px 5px 5px round;
+    /* Opera 11-12.1 */
+    border-image: url('/border.png') 10 / 10px 10px 10px 10px / 5px 5px 5px 5px round;
+
+}
+
+.align-right {
+    float: right !important;
+    text-align: right;
+}
+
+
+.app__message-container .message {
+    width: 200px;
+    font-size: 18px;
+    padding: 4px 2px;
+    outline: none;
+    margin-bottom: 20px;
+}
+
+.app__text-container .text-type {
+    width: 99%;
+    font-size: 18px;
+    outline: none;
+    margin-bottom: 20px;
+    border: 2px solid transparent;
+    -webkit-border-image: url('/border-thick.png') 10 / 10px 10px 10px 10px / 10px 15px 5px 10px round;
+    -o-border-image: url('/border-thick.png') 10 / 10px 10px 10px 10px / 10px 15px 5px 10px round;
+    border-image: url('/border-thick.png') 10 / 10px 10px 10px 10px / 10px 15px 5px 10px round;
+}
