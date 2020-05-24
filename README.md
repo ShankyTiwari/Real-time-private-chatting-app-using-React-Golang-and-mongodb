@@ -8,8 +8,8 @@ This project was generated with [create-react-app](https://github.com/facebook/c
 ## React Code
 Code for React application is in [React folder](https://github.com/ShankyTiwari/Real-time-private-chatting-app-using-React-Golang-and-mongodb/tree/master/React%20App).
 
-## Nodejs API Code
-Code for Nodejs application is in [Nodejs API folder](https://github.com/ShankyTiwari/Real-time-private-chatting-app-using-React-Golang-and-mongodb/tree/master/Nodejs%20API).
+## GoLang API Code
+Code for GoLang application is in [GoLang API folder](https://github.com/ShankyTiwari/Real-time-private-chatting-app-using-React-Golang-and-mongodb/tree/master/Golang%20App).
 
 
 ## Explanation and Blog Post
